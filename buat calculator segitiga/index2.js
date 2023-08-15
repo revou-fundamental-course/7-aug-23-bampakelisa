@@ -15,11 +15,11 @@ function hitungKeliling() {
                 sisiA * sisiA + sisiC * sisiC === sisiB * sisiB ||
                 sisiB * sisiB + sisiC * sisiC === sisiA * sisiA) {
                 keliling = sisiA + sisiB + sisiC;
-                rumus = "K = Sisi A + Sisi B + Sisi C";
+                rumus = "K = S1 + S2 + S3";
                 angkaAngka = "K = " + sisiA + " + " + sisiB + " + " + sisiC;
             } else {
                 keliling = sisiA + sisiB + sisiC;
-                rumus = "K = Sisi A + Sisi B + Sisi C";
+                rumus = "K = S1 + S2 + S3";
                 angkaAngka = "K = " + sisiA + " + " + sisiB + " + " + sisiC;
             }
             document.getElementById("hasil").textContent = "K = " + keliling;
