@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator Segitiga</title>
+    <script src="index2.js"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+          <div class="logo"><img src="hurang.webp" alt="logoasya" height="60px" width="120px">
+          <ul>
+            <li class="logo" id="klik"><a href="index.html">Luas Segitiga</a></li>
+            <li><a href="#">Keliling Segitiga</a></li>
+          </ul>
+          </div>
+        </div>
+        <h1 class="keliling">Keliling Segitiga</h1>
+          <img class="gambar" src="segitiga.png" alt="Segitiga">
+          <h3 class="rumus">Rumus Keliling Segitiga yaitu :</h2>
+            <h2 class="rumus" id="rumusnyak">K = S1 + S2 + S3</h2>
+            <h3 class="rumus" id="penjelasan">Dimana :</h3>
+            <h3 class="rumus" id="apasaja">K = Keliling</h3>
+            <h3 class="rumus" id="apasaja">S1 = Sisi A</h3>
+            <h3 class="rumus" id="apasaja">S2 = Sisi B</h3>
+            <h3 class="rumus" id="apasaja">S3 = Sisi C</h3>
+     </header>
+     <hr>
+     <main>
+        <h2 class="hitung">Hitung Keliling Segitiga</h2>
+        <section class="input-section">
+            <label for="">Sisi A</label>
+            <input type="number" id="sisiA" placeholder="0">
+            <label for="">Sisi B</label>
+            <input type="number" id="sisiB" placeholder="0">
+            <label for="">Sisi C</label>
+            <input type="number" id="sisiC" placeholder="0">
+            <section>
+              <p class="komputer" id="rumus"></p>
+              <p class="komputer" id="angka-angka"></p>
+              <p class="komputer" id="hasil"></p>
+                <button class="button1" onclick="hitungKeliling()">Hitung</button>
+                <button class="button2" onclick="resetForm()">Reset</button>
+            </section>
+        </section>
+     </main>
+</body>
+</html>
