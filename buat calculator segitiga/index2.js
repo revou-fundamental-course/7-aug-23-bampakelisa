@@ -14,17 +14,15 @@ function hitungKeliling() {
             if (sisiA * sisiA + sisiB * sisiB === sisiC * sisiC ||
                 sisiA * sisiA + sisiC * sisiC === sisiB * sisiB ||
                 sisiB * sisiB + sisiC * sisiC === sisiA * sisiA) {
-                // Segitiga siku-siku, gunakan hukum Pythagoras
                 keliling = sisiA + sisiB + sisiC;
-                rumus = "Keliling = Sisi A + Sisi B + Sisi C";
-                angkaAngka = "Angka-angka: " + sisiA + " + " + sisiB + " + " + sisiC;
+                rumus = "K = Sisi A + Sisi B + Sisi C";
+                angkaAngka = "K = " + sisiA + " + " + sisiB + " + " + sisiC;
             } else {
-                // Segitiga lainnya
                 keliling = sisiA + sisiB + sisiC;
-                rumus = "Keliling = Sisi A + Sisi B + Sisi C";
-                angkaAngka = "Angka-angka: " + sisiA + " + " + sisiB + " + " + sisiC;
+                rumus = "K = Sisi A + Sisi B + Sisi C";
+                angkaAngka = "K = " + sisiA + " + " + sisiB + " + " + sisiC;
             }
-            document.getElementById("hasil").textContent = "Keliling segitiga: " + keliling;
+            document.getElementById("hasil").textContent = "K = " + keliling;
             document.getElementById("rumus").textContent = rumus;
             document.getElementById("angka-angka").textContent = angkaAngka;
         } else {
